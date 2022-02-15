@@ -23,8 +23,7 @@ namespace Ecommerce.Application.DIHandling
                 {
                     options.UseSqlServer
                     (
-                        "server = localhost; database = EcommerceSys; trusted_connection = true;",
-                        options => options.MigrationsAssembly("Ecommerce.Web")
+                        "server = localhost; database = EcommerceSys; trusted_connection = true;"
                     );
                 });
 
